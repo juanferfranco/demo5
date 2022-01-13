@@ -1,0 +1,14 @@
+{
+    "tests": [
+      {
+        "name": "Test",
+        "setup": "",
+        "run": "cd ./dirTest/project && gcc -o wcat wcat.c -Wall -Werror && ls -al && bash ./test-wcat.sh",
+        "input": "",
+        "output": "",
+        "comparison": "included",
+        "timeout": 10,
+        "points": null
+      }
+    ]
+  }
